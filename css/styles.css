@@ -53,7 +53,6 @@ figure {
 .section_header_div2 {
     display: flex;
     align-items: center;
-    
 }
 
 .header_nav ul {
@@ -70,21 +69,48 @@ figure {
 }
 
 .header_email {
+    display:inline-flex;
+    padding-left: 10px;
+        
     text-decoration: none;
     list-style-type: none;
     color: #757575;
     margin-right: 50px;
+    
 }
+
 
 .header_email:hover {
     color: #2196f3;
+    fill:#2196F3;
+    border-color: #2196f3;
 }
+
+.icon-sobre{
+    height: 12px;
+        width: 16px;
+       margin-right: 10px;
+       margin-top:4px;
+        
+}
+.client-container {
+    border: 1px #AFB1B8;
+    border-radius: 4px;
+}
+
+
 
 .header_phone {
     text-decoration: none;
     list-style-type: none;
     color: #757575;
+}
 
+.icon-phone {
+    height: 16px;
+    width: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
 }
 
 /*creo una clase sobre mi etiqueta UL que va a ser una lista de enlaces y aca le quito el subrayado */
@@ -105,7 +131,10 @@ figure {
 }
 
 .header_phone:hover {
+
     color: #2196f3;
+    fill: #2196F3;
+    border-color: #2196f3;
 }
 
 /* section 1 */
