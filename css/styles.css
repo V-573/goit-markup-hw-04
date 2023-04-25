@@ -163,7 +163,7 @@ figure {
 /* section 1 */
 
 .section1 {
-    background-color: #2F303A;
+    background-image: url(../images/section_image.jpg);
     color: white;
     text-align: center;
     padding-top: 200px;
