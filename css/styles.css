@@ -34,7 +34,7 @@ figure {
     margin-right: 93px;
 }
 .linea{
-    width: 1600px;
+   
     border: 1px solid #ECECEC;
     margin:0px;
 }
@@ -97,11 +97,18 @@ figure {
     border-color: #2196f3;
 }
 
+.header_email:hover  .icon-sobre{
+    color: #2196f3;
+    fill: #2196F3;
+    border-color: #2196f3;
+}
+
 .icon-sobre{
     height: 12px;
         width: 16px;
        margin-right: 10px;
        margin-top:4px;
+       fill:#757575;
         
 }
 .client-container {
@@ -120,9 +127,10 @@ figure {
     width: 10px;
     margin-right: 10px;
     margin-top: 4px;
+    fill: #757575;
 }
 
-/*creo una clase sobre mi etiqueta UL que va a ser una lista de enlaces y aca le quito el subrayado */
+
 .header_ul a {
 
     text-decoration: none;
@@ -139,13 +147,19 @@ figure {
 
 }
 
-.header_phone:hover {
+.header_phone:hover .icon-phone{
 
     color: #2196f3;
     fill: #2196F3;
     border-color: #2196f3;
 }
 
+.header_phone:hover {
+
+    color: #2196f3;
+    fill: #2196F3;
+    border-color: #2196f3;
+}
 /* section 1 */
 
 .section1 {
@@ -343,6 +357,7 @@ h4 {
 }
 
 
+
 .section4_name_team .name_worker {
     margin-top: 30px;
     margin-bottom: 0px;
@@ -371,12 +386,60 @@ h4 {
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
 }
+/*iconos redes sociales*/
+
+.section4-container-icons {
+    margin: 0 auto;
+    height: 44px;
+    width: 206px;
+    fill:#757575;
+
+}
+
+.section4-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+}
+
+
+.section4-container:hover {
+
+    background-color: #2196F3;
+    border-radius: 22px;
+    border: 1px #AFB1B8 solid;
+}
+
+.section4-container:hover .section4-logo {
+    border-color: #fff;
+    fill: #fff;
+    background-color: #2196F3;
+
+
+}
+
+.section4-logo {
+    height: 20px;
+    width: 20px;
+
+
+}
+
+
 /*section5*/
 .section5 {
     margin: 0 auto;
-       
     padding-bottom: 151px;
+    padding-top: 140px;
 
 }
 .section5-text{
@@ -409,6 +472,7 @@ h4 {
     border-radius: 4px;
     width: 150px;
     height: 81px;
+    fill:#AFB1B8;
 
 }
 
@@ -417,10 +481,10 @@ h4 {
     fill: #2196f3;
 }
 
-.section5-client-logo {
+.container .section5-client-container .section5-client-logo {
     height: 52px;
     width: 106px;
-
+fill:#AFB1B8 solid;
 
 }
 .footer {
@@ -470,11 +534,7 @@ display:flex;
     fill: #2196F3;
     border-color: #2196f3;
 }
-.footer-redes{
 
-
-
-}
 .footer-addres-logo{
 
     margin-right: 70px;
@@ -491,58 +551,22 @@ display:flex;
     width: 44px;
     height: 44px;
     border: 1px #AFB1B8 solid;
-    border-radius: 20px;
+    border-radius: 22px;
 
 }
 
-.section4-logo-footer:hover{
+.section4-container-footer:hover .section4-logo-footer{
     fill: #2196f3;
 }
 .section4-container-footer:hover {
     border-color: #2196f3;
-    
-}
-
-
-/*iconos redes sociales*/
-
-.section4-container-icons {
-    margin: 0 auto;
-    height: 44px;
-    width: 206px;
-
-}
-
-.section4-flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.section4-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-
-  
-}
-
-.section4-container:hover {
-    border-color: #2196f3;
     fill: #2196f3;
 }
-
-.section4-logo {
-    height: 20px;
-    width: 20px;
-}
-
 
 .section4-logo-footer {
     height: 20px;
     width: 20px;
-    fill:#FFFFFF;
+    fill: #FFFFFF;
 }
 /*page 2 */
 
