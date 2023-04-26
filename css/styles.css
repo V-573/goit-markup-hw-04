@@ -163,7 +163,8 @@ figure {
 /* section 1 */
 
 .section1 {
-    background-image: url(../images/section_image.jpg);
+    background-image: url(../images/section_image.jpg) ;
+    background:#2F303A;
     color: white;
     text-align: center;
     padding-top: 200px;
