@@ -617,8 +617,7 @@ h5 {
   padding: 6px 24px;
 }
 
-.button1 a:hover,
-.button1 a:focus {
+.button1 a:hover {
   color: white;
 }
 
@@ -648,7 +647,8 @@ h5 {
 /*section 2*/
 
 .section10 {
-  margin-top: 50px;
+  padding-top: 50px;
+  margin-bottom: 94px;
 }
 
 .section10 ul {
@@ -666,8 +666,10 @@ h5 {
 .imagenes {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap:30px;
+ 
 }
+
 
 address p {
   font-family: "Roboto";
