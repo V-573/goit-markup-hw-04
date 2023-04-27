@@ -557,18 +557,23 @@ address p {
   width: 44px;
   height: 44px;
    border-radius: 22px;
-  /* border: 1px #afb1b8 solid; */
-  margin-right: 10px;;
+  margin-right: 10px;
   background:linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1));
 }
 
-.container-footer:hover, 
-.container-footer:focus {
+.footer-flex a:hover, 
+.footer-flex a:focus {
  background-color: #2196f3;
   border-radius: 22px;
   border: 1px #2196f3;
 }
-      
+.footer-flex a:focus {
+  background-color: #2196f3;
+   border-radius: 22px;
+   border: 1px #2196f3;
+ }
+ 
+
 .logo-footer {
   height: 20px;
   width: 20px;
