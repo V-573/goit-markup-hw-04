@@ -39,11 +39,7 @@ figure {
 }
 .section_header {
   display: flex;
-  justify-content: space-between;
-}
-
-.section_header_div1 {
-  display: flex;
+  justify-content:flex-start;
 }
 
 .section_header_div2 {
@@ -61,6 +57,10 @@ figure {
 .portafolio {
   margin-right: 50px;
 }
+.contactos{
+  margin-right:250px;
+}
+
 
 .header_email {
   display: inline-flex;
@@ -134,7 +134,7 @@ figure {
 
 .header_ul {
   list-style-type: none;
-  /*Quito las viñetas de cada iten de lista*/
+  
 }
 
 .header_phone:hover .icon-phone,
@@ -301,17 +301,6 @@ h5 {
     margin-right: 30px;
 }
 
-
-.sub-box1 {
-   
-    width: 370px;
-    height: 70px;
-    background: linear-gradient(rgba(47,48,58,0.8),rgba(47,48,58,0.8));
-    color:white;
-    text-align: center;
-}
-
-
 .box2 {
     background: url(../images/cel.jpg);
     width: 370px;
@@ -324,19 +313,7 @@ h5 {
     align-items: flex-end;
     margin-right: 30px;
 }
-
-
-.sub-box2 {
-    
-    width: 370px;
-    height: 70px;
-    background: linear-gradient(rgba(47,48,58,0.8),rgba(47,48,58,0.8));
-    color:white;
-    text-align: center;
-  }
-
-
-
+  
 .box3 {
     background: url(../images/tablet.jpg);
     width: 370px;
@@ -346,21 +323,19 @@ h5 {
     align-items: flex-end;
     margin-right: 30px;
 }
-
-
-.sub-box3 {
-    
-    width: 370px;
-    height: 70px;
-    background:linear-gradient(rgba(47,48,58,0.8),rgba(47,48,58,0.8));
-    color:white;
-    text-align: center;
+.sub-box {
+   
+  width: 370px;
+  height: 70px;
+  background: linear-gradient(rgba(47,48,58,0.8),rgba(47,48,58,0.8));
+  color:white;
+  text-align: center;
 }
 
 
 /*section 4*/
 
-.section4_div_general {
+.section4 {
   height: 648px;
   padding-top: 94px;
   margin-top: 94px;
@@ -399,7 +374,7 @@ h5 {
   justify-content: center;
 }
 
-.section4_name_team .name_worker {
+.section4_image .name_worker {
   margin-top: 30px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -435,12 +410,10 @@ h5 {
   height: 44px;
   width: 206px;
   fill: #757575;
-}
-
-.section4-flex {
-  display: flex;
+ display: flex;
   justify-content: space-between;
 }
+
 
 .section4-container {
   display: flex;
@@ -497,7 +470,7 @@ h5 {
 }
 
 .section5-client-container {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   border: 1px #afb1b8 solid;
@@ -518,6 +491,10 @@ h5 {
   width: 106px;
   fill: #afb1b8 solid;
 }
+
+
+
+/* section footer */
 
 .footer {
   display: flex;
@@ -568,11 +545,8 @@ h5 {
   border-color: #2196f3;
 }
 
-.footer-addres-logo {
-  margin-right: 70px;
-}
 .text-footer {
-  text-align: start;
+ 
   color: #ffffff;
 }
 
@@ -611,125 +585,5 @@ h5 {
   fill: #ffffff;
 }
   
- 
-/*page 2 */
-
-.navigation2 {
-  margin-top: 95px;
-}
-
-.navigation2 ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
-
-.navigation2 a {
-  text-decoration: none;
-  color: #212121;
-}
-
-.button1 {
-  background-color: transparent;
-  width: auto;
-  height: auto;
-  border: 0;
-  list-style-type: none;
-  font-family: Roboto;
-  font-weight: 500px;
-  font-size: 16px;
-  line-height: 26px;
-  margin-right: 8px;
-  padding: 0px;
-}
-
-.text-button {
-  display: block;
-  padding: 6px 24px;
+  /*  */
   
-}
-
-.button1 a:hover,
-.button1 a:focus {
-  color: white;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  background: #2196f3;
-}
-
-/*section 2*/
-
-.section10 {
-  padding-top: 50px;
-  margin-bottom: 94px;
-}
-
-.section10 ul {
-  list-style-type: none;
-}
-
-.section10 a {
-  text-decoration: none;
-}
-
-.section10_li {
-  width: 370px;
-}
-
-.imagenes {
-  display: flex;
-  flex-wrap: wrap;
-  gap:30px;
- 
-}
-
-
-address p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
-
-.footer2 {
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 94px;
-}
-
-.image1:hover,
-.image1:focus {
-  box-sizing: border-box;
-  position: absolute;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-  width: 370px;
-}
-
-.tittle10 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-
-.tittle11 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
