@@ -74,9 +74,6 @@ body {
     margin-right: 50px;
   }
   
-  
-  
-  
   .header_email:hover,
   .header_email:focus {
     color: #2196f3;
@@ -144,23 +141,23 @@ body {
   }
 
 
-
+  .linea {
+    border: 1px solid #ececec;
+    margin: 0px;
+  }
   
  .navigation2 {
     margin-top: 95px;
   }
-  
   .navigation2 ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-  }
-  
+  }  
   .navigation2 a {
     text-decoration: none;
     color: #212121;
   }
-  
   .button1 {
     background-color: transparent;
     width: auto;
@@ -174,13 +171,10 @@ body {
     margin-right: 8px;
     padding: 0px;
   }
-  
   .text-button {
     display: block;
     padding: 6px 24px;
-    
   }
-  
   .button1 a:hover,
   .button1 a:focus {
     color: white;
